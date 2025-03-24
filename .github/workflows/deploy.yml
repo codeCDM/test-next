@@ -33,3 +33,4 @@ jobs:
         with:
           branch: gh-pages # The branch to deploy to
           folder: out # The folder containing the static files
+          token: ${{ secrets.GITHUB_TOKEN }} # GitHub token for authentication
